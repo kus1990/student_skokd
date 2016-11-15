@@ -22,9 +22,29 @@
 	<td></td>
 </tr>
 <tr>
+	<td>assertElementPresent</td>
+	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=.//*[@id='searchField']</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div/div/div/ul/li[18]/a/span</td>
 	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()='Спорт и Туризм']</td>
+	<td>Спорт и Туризм</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -32,8 +52,33 @@
 	<td></td>
 </tr>
 <tr>
+	<td>assertText</td>
+	<td>//span[text()='Горнолыжный спорт']</td>
+	<td>Горнолыжный спорт</td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>xpath=//*[contains(text(), 'Горнолыжный спорт')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()=' Горные лыжи']</td>
+	<td>Горные лыжи</td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[contains(@class,'b-product__descr') and (text()='Горные лыжи Fischer Hybrid 7.0 Powerrail, 175 см')]</td>
 	<td></td>
 </tr>
 <tr>
