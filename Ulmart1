@@ -42,9 +42,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>assertElementPresent</td>
 	<td>//h1[text()='Спорт и Туризм']</td>
-	<td>Спорт и Туризм</td>
+	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -52,9 +52,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>assertElementPresent</td>
 	<td>//span[text()='Горнолыжный спорт']</td>
-	<td>Горнолыжный спорт</td>
+	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -67,9 +67,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
+	<td>assertElementPresent</td>
 	<td>//h1[text()=' Горные лыжи']</td>
-	<td>Горные лыжи</td>
+	<td></td>
 </tr>
 <tr>
 	<td>waitForPageToLoad</td>
@@ -82,7 +82,7 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>xpath=.//*[@id='catalogGoodsBlock']//span/a[1]</td>
 	<td></td>
 </tr>
