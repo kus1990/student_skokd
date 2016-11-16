@@ -33,18 +33,13 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div/div/div/ul/li[18]/a/span</td>
+	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div/div/div/ul/li[19]/a/span</td>
 	<td></td>
 </tr>
 <tr>
-	<td>waitForPageToLoad</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//h1[text()='Спорт и Туризм']</td>
-	<td></td>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Спорт и Туризм</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -62,19 +57,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForPageToLoad</td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//h1[text()=' Горные лыжи']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForPageToLoad</td>
-	<td></td>
-	<td></td>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Горные лыжи</td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
