@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.ulmart.ru" />
+<title>Ulmart</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Ulmart</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=.//*[@id='searchField']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div/div/div/ul/li[19]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Спорт и Туризм</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=html/body/div[1]/div/div/div/div[2]/div/div/section[1]/div/div[1]/ul/li[7]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//a/span[text()='Портативные']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//a/span[text()='Вертикальные']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//a/span[text()='Горизонтальные']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=html/body/div[1]/div/div/div/div[2]/div/div/section[1]/div/div[1]/ul/li[8]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Вертикальные</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='catalogGoodsBlock']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=.//*[@id='catalogGoodsBlock']/section[1]//div[@class='b-product__art']/span</td>
+	<td>art</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=.//*[@id='catalogGoodsBlock']//span/a[1]</td>
+	<td>name</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${name}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${art}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=.//*[@id='catalogGoodsBlock']/section[1]//div[@class='b-product__right js_product_rigth']/div[2]/a[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Товар добавлен в корзину!</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//span[contains(text(), 'Перейти в корзину')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=.//*[@id='pre-cart-summary']//a[2]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//h1[text()]</td>
+	<td>Ваша корзина</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=//section//div[2]/div[1]/div[1]/div[2]</td>
+	<td>num</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=//a/strong</td>
+	<td>name1</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=//div[1]/div[4]/span</td>
+	<td>art1</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${num}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${name1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${art1}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=//section//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//section//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=//section/div/div/p[text()]</td>
+	<td>Ваша корзина пуста. Начните с главной страницы или воспользуйтесь поиском.</td>
+</tr>
+</tbody></table>
+</body>
+</html>
