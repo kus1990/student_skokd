@@ -63,6 +63,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
+	<!-- Даша, такие локаторы писать нельзя. Они очень неустойчивые и длинные. Нужно будет поправить к вс -->
 	<td>xpath=html/body/div[1]/div/div/div/div[2]/div/div/section[1]/div/div[1]/ul/li[8]/a/span</td>
 	<td></td>
 </tr>
@@ -98,6 +99,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
+	<!-- Даша, такие локаторы писать нельзя. Они очень неустойчивые и длинные. Нужно будет поправить к вс -->
 	<td>xpath=.//*[@id='catalogGoodsBlock']/section[1]//div[@class='b-product__right js_product_rigth']/div[2]/a[1]</td>
 	<td></td>
 </tr>
@@ -123,6 +125,7 @@
 </tr>
 <tr>
 	<td>storeText</td>
+	<!-- Даша, такие локаторы писать нельзя. Они очень неустойчивые и длинные. Нужно будет поправить к вс -->
 	<td>xpath=//section//div[2]/div[1]/div[1]/div[2]</td>
 	<td>num</td>
 </tr>
