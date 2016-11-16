@@ -23,6 +23,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
+	<!-- Не очень удачный xpath, легко ломается если между данными div появится еще один. Но сейчас он рабочий.-->
 	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div</td>
 	<td></td>
 </tr>
@@ -33,6 +34,8 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
+	<!-- Не очень удачный xpath, легко ломается если между данными div появится еще один. Но сейчас он рабочий.
+	Можно попробовать добавить поиск через // как вариант -->
 	<td>xpath=.//*[@id='b-dropdown-catalog-menu']/div/div/div/div/ul/li[19]/a/span</td>
 	<td></td>
 </tr>
@@ -63,6 +66,8 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
+	<!-- Не очень удачный вариант локатора. Лучше просто найти это поле без анализа текста внутри, а потом уже проверить 
+	инструментами, которым вас научит Коля на сегодняшнем занятии -->
 	<td>//div[contains(@class,'b-product__descr') and (text()='Горные лыжи Fischer Hybrid 7.0 Powerrail, 175 см')]</td>
 	<td></td>
 </tr>
